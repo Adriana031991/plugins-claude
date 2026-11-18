@@ -1,0 +1,5 @@
+{
+  "name": "construir-flujo",
+  "version": "0.1.0",
+  "description": "Arma el plan de un flujo de Mule 4 a partir del diseño del proyecto (contratos, eventos, decisiones), sin inventar nada, y acompaña su construcción en Studio pieza por pieza."
+}

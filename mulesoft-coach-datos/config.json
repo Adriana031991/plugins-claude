@@ -1,0 +1,13 @@
+{
+  "entorno": {
+    "anypoint_studio": "Tooling for Mule Runtime 7.26.0",
+    "mule_runtime": "4.12.6",
+    "acb_extension_pack": "1.28.2",
+    "versiones_verificadas": false,
+    "nota": "Versiones leídas de la instalación local; no verificadas contra la documentación oficial."
+  },
+  "deployment_targets": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+  "nivel_actual": "intermedio",
+  "objetivos": ["certificacion", "proyecto"],
+  "docs_last_reviewed": "2026-11-13"
+}

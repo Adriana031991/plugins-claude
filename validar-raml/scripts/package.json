@@ -1,0 +1,8 @@
+{
+  "name": "validar-raml-scripts",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "amf-client-js": "5.16.0"
+  }
+}

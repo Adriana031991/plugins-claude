@@ -1,0 +1,236 @@
+{
+  "actualizado": "2026-11-17",
+  "regla_lotes": "Un capítulo por lote. Cortar con herramientas-ingesta/cortar-pdf.js en partes de 10 páginas o menos.",
+  "libros": {
+    "anypoint-platform": {
+      "pdf": "libro mulesoft anypoint platform.pdf",
+      "paginas": 171,
+      "capitulos": [
+        {
+          "n": 1,
+          "paginas": "1-9",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 2,
+          "paginas": "9-20",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 3,
+          "paginas": "21-32",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 4,
+          "paginas": "32-45",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 5,
+          "paginas": "45-59",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 6,
+          "paginas": "59-71",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 7,
+          "paginas": "71-85",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 8,
+          "paginas": "85-99",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 9,
+          "paginas": "99-112",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 10,
+          "paginas": "112-122",
+          "estado": "hecho",
+          "confirmado": "2026-11-13"
+        },
+        {
+          "n": 11,
+          "paginas": "122-129",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 12,
+          "paginas": "(imagen)+130-140",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 13,
+          "paginas": "141-149",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 14,
+          "paginas": "150-157",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 15,
+          "paginas": "157-163",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 16,
+          "paginas": "164-171",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        }
+      ],
+      "estado": "completo-confirmado"
+    },
+    "agent-fabric-mcp": {
+      "pdf": "libro mulesoft A.F. and MCP for agentic integration workflows.pdf",
+      "paginas": 160,
+      "capitulos": [
+        {
+          "n": 1,
+          "paginas": "2-10",
+          "estado": "hecho",
+          "nota": "Lote de prueba de este libro.",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 2,
+          "paginas": "11-21",
+          "estado": "hecho",
+          "confirmado": "2026-11-14"
+        },
+        {
+          "n": 3,
+          "paginas": "21-32",
+          "estado": "hecho",
+          "confirmado": "2026-11-15"
+        },
+        {
+          "n": 4,
+          "paginas": "33-45",
+          "estado": "hecho",
+          "confirmado": "2026-11-15"
+        },
+        {
+          "n": 5,
+          "paginas": "46-57",
+          "estado": "hecho",
+          "confirmado": "2026-11-15"
+        },
+        {
+          "n": 6,
+          "paginas": "58-68",
+          "estado": "hecho",
+          "confirmado": "2026-11-15"
+        },
+        {
+          "n": 7,
+          "paginas": "69-80",
+          "estado": "hecho",
+          "confirmado": "2026-11-15"
+        },
+        {
+          "n": 8,
+          "paginas": "80-91",
+          "estado": "hecho",
+          "confirmado": "2026-11-15"
+        },
+        {
+          "n": 9,
+          "paginas": "92-103",
+          "estado": "hecho",
+          "confirmado": "2026-11-16"
+        },
+        {
+          "n": 10,
+          "paginas": "103-114",
+          "estado": "hecho",
+          "confirmado": "2026-11-16"
+        },
+        {
+          "n": 11,
+          "paginas": "115-126",
+          "estado": "hecho",
+          "confirmado": "2026-11-16"
+        },
+        {
+          "n": 12,
+          "paginas": "126-137",
+          "estado": "hecho",
+          "confirmado": "2026-11-17"
+        },
+        {
+          "n": 13,
+          "paginas": "137-150",
+          "estado": "hecho",
+          "confirmado": "2026-11-17"
+        },
+        {
+          "n": 14,
+          "paginas": "150-160",
+          "estado": "hecho",
+          "confirmado": "2026-11-17"
+        }
+      ],
+      "estado": "completo-confirmado",
+      "nota": "Sin índice ni autor. Págs. 1 = portada.",
+      "temario": "aparte: no va en taxonomy.json; serie de evaluaciones separada, mecánica por definir (decisión 2026-11-14)"
+    }
+  },
+  "transcripciones_videos": {
+    "estado": "en-progreso",
+    "formato": "un solo documento por video en videos/serie-N/ (resumen por bloques, conceptos, para evaluar, para desarrollar, para estudiar, verificación); no se copia la transcripción",
+    "videos": [
+      {
+        "id": "s1-01",
+        "estado": "hecho",
+        "confirmado": "2026-11-17"
+      },
+      {
+        "id": "s1-02",
+        "estado": "hecho",
+        "confirmado": "2026-11-17"
+      },
+      {
+        "id": "s1-03",
+        "estado": "hecho",
+        "confirmado": "2026-11-17"
+      },
+      {
+        "id": "s1-04",
+        "estado": "hecho",
+        "confirmado": null
+      }
+    ]
+  },
+  "whitepaper_seguridad": {
+    "estado": "hecho",
+    "archivo": "whitepaper-seguridad/documento.md",
+    "paginas": 7,
+    "transcrito": "2026-11-17",
+    "confirmado": "2026-11-17"
+  }
+}

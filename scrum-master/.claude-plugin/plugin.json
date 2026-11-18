@@ -1,0 +1,17 @@
+{
+  "name": "scrum-master",
+  "displayName": "Scrum Master",
+  "version": "0.3.0",
+  "description": "Un Scrum Master para cualquier proyecto: backlog, planificación de sprint, daily, impedimentos, revisión, retrospectiva y una vista de todos tus proyectos.",
+  "author": { "name": "Mis plugins" },
+  "keywords": ["scrum", "sprint", "backlog", "seguimiento", "agil"],
+  "userConfig": {
+    "portafolio_dir": {
+      "type": "directory",
+      "title": "Carpeta del portafolio",
+      "description": "Carpeta FUERA de los proyectos donde vive proyectos.md, la lista de todos los proyectos con seguimiento Scrum. Se usa para la vista de portafolio.",
+      "required": true,
+      "default": "C:/Users/PHI_ADRIANA_CORP/Documents/trabajo/training/plugins-claude/scrum-master-datos"
+    }
+  }
+}

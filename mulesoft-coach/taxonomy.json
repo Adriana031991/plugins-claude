@@ -1,0 +1,191 @@
+{
+  "_contrato": "Archivo compartido por los tres módulos. Cada tema: id, nombre, aplica_a (lista de destinos), objetivo (certificacion | proyecto | ambos). Las preguntas y el historial heredan estas etiquetas. Los temas de certificación salen SOLO del temario oficial vigente del examen, nunca de memoria. Campos extra: peso (% oficial del examen), objetivos_oficiales (texto de la guía), nota.",
+  "version": "0.2.0",
+  "fuente_temario": {
+    "nombre": "Salesforce Certified MuleSoft Developer Exam Guide",
+    "url": "https://help.salesforce.com/s/articleView?id=005298959&type=1",
+    "consultado": "2026-11-13",
+    "nota": "La guía dice que las preguntas se alinean al release Spring '24. Revisar la guía antes de presentar: puede cambiar."
+  },
+  "destinos": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+  "objetivos": ["certificacion", "proyecto", "ambos"],
+  "temas": [
+    {
+      "id": "application-networks",
+      "nombre": "Creating Application Networks",
+      "peso": 7,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Identify core architectural concepts of the Application Network and modern APIs.",
+        "Identify features of an API-led approach.",
+        "Identify features of MuleSoft's recommended Operational Model (C4E).",
+        "Apply correct processors / syntax and predict outcomes to consume RESTful web services (RAML-based) and predict outcomes."
+      ]
+    },
+    {
+      "id": "designing-apis",
+      "nombre": "Designing APIs",
+      "peso": 8,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Use REST API methods and resources.",
+        "Define REST API parameters and responses.",
+        "Identify when and how to define query parameters vs URI parameters."
+      ]
+    },
+    {
+      "id": "mule-events",
+      "nombre": "Accessing and Modifying Mule Events",
+      "peso": 10,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Apply correct processors/DataWeave expressions to access and modify Mule event payloads, and predict outcomes.",
+        "Apply correct processors/DataWeave expressions to access and modify Mule event attributes, and predict outcomes.",
+        "Apply correct processors/DataWeave expressions to access and modify Mule variables, and predict outcomes.",
+        "Apply correct processors/DataWeave expressions to enrich Mule events using Mule 4 connector targets, and predict outcomes."
+      ]
+    },
+    {
+      "id": "structuring-apps",
+      "nombre": "Structuring Mule Applications",
+      "peso": 10,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Specify when and how to structure Mule applications into separate configuration and properties files, and predict outcomes.",
+        "Specify when and how to pass events between flows and subflows using connectors and flow references, and predict outcomes."
+      ]
+    },
+    {
+      "id": "api-implementation",
+      "nombre": "Building API Implementation Interfaces",
+      "peso": 7,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Manually build API implementations from an API specification, RAML or not.",
+        "Predict the results of APIkit based upon a RAML specification.",
+        "Implement correct responses based on a RAML specification, either manually or with APIkit."
+      ]
+    },
+    {
+      "id": "connectors",
+      "nombre": "Using Connectors",
+      "peso": 10,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Apply correct processors/syntax to connect to databases, and predict outcomes.",
+        "Apply correct processors/syntax to connect to files or FTP servers, and predict outcomes.",
+        "Apply correct processors/syntax to retrieve and combine data in the middle of a flow, and predict outcomes."
+      ]
+    },
+    {
+      "id": "processing-records",
+      "nombre": "Processing Records",
+      "peso": 10,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Apply correct processors/syntax to process individual records in a collection using For Each scopes, and predict outcomes.",
+        "Apply correct processors/syntax to process individual records in a collection using batch scopes, and predict outcomes.",
+        "Apply correct processors/syntax to process individual records in a collection using DB listeners, and predict outcomes.",
+        "Apply correct processors/syntax to persist data between flow executions."
+      ]
+    },
+    {
+      "id": "dataweave",
+      "nombre": "Transforming Data",
+      "peso": 10,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Convert between output types and data types using DataWeave.",
+        "Predict the result of core DataWeave functions.",
+        "Apply correct syntax to write DataWeave transformations to coerce, format, order, and filter data, and predict outcomes.",
+        "Call Mule flows from a DataWeave script.",
+        "Define, use, and reuse DataWeave modules, functions, and variables, and predict outcomes."
+      ]
+    },
+    {
+      "id": "routing",
+      "nombre": "Routing Events",
+      "peso": 8,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Apply correct processors/syntax to route messages using DataWeave conditions within a choice router, and predict outcomes.",
+        "Apply correct processors/syntax to scatter and gather messages, and predict outcomes.",
+        "Apply correct processors/syntax to validate Mule events, and predict outcomes."
+      ]
+    },
+    {
+      "id": "error-handling",
+      "nombre": "Handling Errors",
+      "peso": 8,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Apply correct processors/syntax to implement global error handlers, and predict outcomes.",
+        "Apply correct processors/syntax to implement on-error continue and on-error propagate handlers, and predict outcomes.",
+        "Apply correct processors/syntax to combine multiple error handlers, and predict outcomes.",
+        "Apply correct processors /syntax to implement try scopes, and predict outcomes.",
+        "Apply correct processors/syntax to map custom errors, and predict outcomes."
+      ]
+    },
+    {
+      "id": "debugging",
+      "nombre": "Debugging and Troubleshooting Mule Applications",
+      "peso": 5,
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Identify root causes for errors when debugging Mule applications, and predict outcomes."
+      ]
+    },
+    {
+      "id": "deploying-managing",
+      "nombre": "Deploying and Managing APIs and Integrations",
+      "peso": 7,
+      "aplica_a": ["cloudhub1"],
+      "objetivo": "ambos",
+      "objetivos_oficiales": [
+        "Deploy applications to CloudHub.",
+        "Manage APIs using separate proxies and auto-discovery.",
+        "Manage API policies."
+      ],
+      "nota": "La guía dice solo 'CloudHub', sin versión. La persona interpreta que es CloudHub 1.0, sin verificar contra la documentación oficial. Para proyecto, este tema se amplía a cloudhub2, rtf y onpremise en la Fase 3."
+    },
+    {
+      "id": "herramientas-desarrollo",
+      "nombre": "Herramientas: Anypoint Code Builder, Anypoint Studio, Design Center",
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "proyecto",
+      "nota": "Tema de proyecto, fuera del temario oficial. Se agregó al ingerir los libros."
+    },
+    {
+      "id": "build-dependencias",
+      "nombre": "Build con Maven, dependencias y versiones (pom.xml, MUnit)",
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "proyecto",
+      "nota": "Tema de proyecto. La guía oficial dice que no se espera que el candidato implemente builds Maven."
+    },
+    {
+      "id": "propiedades-seguras",
+      "nombre": "Propiedades seguras y perfiles de configuración por entorno",
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "proyecto",
+      "nota": "Tema de proyecto. Los archivos de propiedades básicos están en structuring-apps (certificación)."
+    },
+    {
+      "id": "reuso-exchange",
+      "nombre": "Activos reutilizables y publicación en Exchange",
+      "aplica_a": ["cloudhub1", "cloudhub2", "rtf", "onpremise"],
+      "objetivo": "proyecto",
+      "nota": "Tema de proyecto."
+    }
+  ]
+}

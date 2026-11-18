@@ -1,0 +1,17 @@
+{
+  "name": "mulesoft-coach",
+  "displayName": "MuleSoft Coach",
+  "version": "0.1.0",
+  "description": "Apoyo MuleSoft en tres módulos independientes: contexto para desarrollar (libros, videos, enlaces oficiales), evaluación de conocimientos y registro de avance.",
+  "author": { "name": "Mis plugins" },
+  "keywords": ["mulesoft", "mule4", "dataweave", "raml", "certificacion"],
+  "userConfig": {
+    "datos_dir": {
+      "type": "directory",
+      "title": "Carpeta de datos de avance",
+      "description": "Carpeta FUERA del plugin con config.json, temas.json e historial.jsonl. Así el avance no se pierde al actualizar el plugin.",
+      "required": true,
+      "default": "C:/Users/PHI_ADRIANA_CORP/Documents/trabajo/training/plugins-claude/mulesoft-coach-datos"
+    }
+  }
+}

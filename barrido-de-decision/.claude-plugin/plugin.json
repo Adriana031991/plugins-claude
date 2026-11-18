@@ -1,0 +1,5 @@
+{
+  "name": "barrido-de-decision",
+  "version": "0.1.0",
+  "description": "Cuando cambia una decisión, busca sus rastros en todos los documentos del proyecto y lista qué hay que corregir."
+}

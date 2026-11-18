@@ -1,0 +1,38 @@
+{
+  "name": "mis-plugins",
+  "owner": {
+    "name": "Mis plugins"
+  },
+  "plugins": [
+    {
+      "name": "barrido-de-decision",
+      "source": "./barrido-de-decision",
+      "description": "Cuando cambia una decisión, busca sus rastros en todos los documentos del proyecto y lista qué hay que corregir."
+    },
+    {
+      "name": "validar-raml",
+      "source": "./validar-raml",
+      "description": "Valida los contratos RAML 1.0 con el analizador de MuleSoft (AMF) y reporta los errores."
+    },
+    {
+      "name": "ciclo-feynman",
+      "source": "./ciclo-feynman",
+      "description": "Aprender un tema con el método Feynman: explicar, que la persona explique, buscar huecos, aplicar y registrar con sus palabras."
+    },
+    {
+      "name": "mulesoft-coach",
+      "source": "./mulesoft-coach",
+      "description": "Apoyo MuleSoft: contexto para desarrollar, evaluación de conocimientos y registro de avance."
+    },
+    {
+      "name": "construir-flujo",
+      "source": "./construir-flujo",
+      "description": "Arma el plan de un flujo de Mule 4 desde el diseño del proyecto, sin inventar nada, y acompaña su construcción pieza por pieza."
+    },
+    {
+      "name": "scrum-master",
+      "source": "./scrum-master",
+      "description": "Un Scrum Master para cualquier proyecto: backlog, sprints, daily, impedimentos, retro y vista de todos tus proyectos."
+    }
+  ]
+}
