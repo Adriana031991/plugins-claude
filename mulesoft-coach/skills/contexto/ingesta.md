@@ -31,8 +31,8 @@ Los recortes se leen visualmente con la herramienta Read.
 - Cada enlace nuevo se clasifica como `oficial` (docs.mulesoft.com, help.salesforce.com, trailhead) o `apoyo` (tutores, blogs). Si no está claro, se pregunta.
 - Un video sin transcripción queda como `sin transcripción`: no se puede ver.
 
-## Formato de nota de video (acordado con la persona el 2026-11-17)
-Las transcripciones ya son texto, así que no se copian: se hace **un solo documento por video** en `videos/serie-N/`, con todas las secciones dentro. El objetivo es dar contexto para las evaluaciones y apoyo real para desarrollar y estudiar. Secciones:
+## Formato de nota de video (acordado con la persona el 2026-11-17; cambiado el 2026-11-18)
+Las transcripciones ya son texto, así que no se copian. Se hace **un solo archivo por serie** en `videos/serie-N.md`, con un encabezado de la serie (tabla de videos y puntos que se cruzan con otras series) y **una sección por video** con todas las secciones dentro. Los videos de una serie se pueden ingerir de corrido y confirmar al final, por serie (decisión del 2026-11-18). El objetivo es dar contexto para las evaluaciones y apoyo real para desarrollar y estudiar. Secciones de cada video:
 1. **Resumen por bloques**: tabla con rango `[mm:ss]`, bloque e idea principal.
 2. **Conceptos clave**: definiciones en palabras propias, con el `id` del tema y la marca de tiempo.
 3. **Para evaluar**: qué debería poder hacer o explicar quien domina el tema, y las confusiones típicas que señala el video. No son preguntas para copiar: las preguntas se basan en la doc oficial.

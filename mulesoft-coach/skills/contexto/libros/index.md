@@ -134,11 +134,22 @@ Libros:
 
 ## Videos (material de apoyo)
 
-Notas de resumen con marcas de tiempo. Rutas relativas a `skills/contexto/`.
+Un archivo de notas por serie, con una sección por video y marcas de tiempo. Rutas relativas a `skills/contexto/`.
 
 | Nota | Temas | De qué trata |
 |---|---|---|
-| `videos/serie-1/s1-01-kickoff.md` | application-networks, herramientas-desarrollo | Formato y estrategia del examen MCD1; punto a punto → ESB → API-led; tres capas; C4E y Catalyst |
-| `videos/serie-1/s1-02-ciclo-de-vida-api.md` | designing-apis, api-implementation, structuring-apps, deploying-managing, mule-events | Ciclo de vida de la API; console vs. portal; flujos que genera APIkit; deployable archive; query vs. URI params; config por entorno con `env` y `global.xml` |
-| `videos/serie-1/s1-03-despliegue-y-gestion.md` | deploying-managing, structuring-apps, mule-events, debugging | Opciones de runtime y Mule agent; Mule domain; proxy vs. basic endpoint con Autodiscovery; familias de políticas; Mule event, transport boundary y logger |
-| `videos/serie-1/s1-04-dataweave-y-batch.md` | dataweave, processing-records | Presentado por alumnos: funciones básicas de DataWeave (map, filter, reduce, groupBy, orderBy, default); Batch Job, steps, aggregator, On Complete y variables en batch |
+| `videos/serie-1.md` (sesión 1) | application-networks, herramientas-desarrollo | Formato y estrategia del examen MCD1; punto a punto → ESB → API-led; tres capas; C4E y Catalyst |
+| `videos/serie-1.md` (sesión 2) | designing-apis, api-implementation, structuring-apps, deploying-managing, mule-events | Ciclo de vida de la API; console vs. portal; flujos que genera APIkit; deployable archive; query vs. URI params; config por entorno con `env` y `global.xml` |
+| `videos/serie-1.md` (sesión 3) | deploying-managing, structuring-apps, mule-events, debugging | Opciones de runtime y Mule agent; Mule domain; proxy vs. basic endpoint con Autodiscovery; familias de políticas; Mule event, transport boundary y logger |
+| `videos/serie-1.md` (sesión 4) | dataweave, processing-records | Presentado por alumnos: funciones básicas de DataWeave; Batch Job, steps, aggregator, On Complete y variables en batch |
+| `videos/serie-1.md` (sesión 5) | error-handling, api-implementation | Valores por defecto del Listener; Propagate vs. Continue; Default Error Handler; padre-hijo; Try; global error handler; error mapping |
+| `videos/serie-1.md` (sesión 6) | routing, reuso-exchange, designing-apis | API Governance; Choice, Scatter-Gather, First Successful, Round Robin; Validation; versionado semántico; día del examen |
+| `videos/serie-2.md` (video 1) | application-networks | Anypoint Platform; Mule 4; API-led y cuándo no usar tres capas |
+| `videos/serie-2.md` (video 2) | herramientas-desarrollo, structuring-apps, build-dependencias, mule-events | Instalar Studio, JDK 17 y Maven; estructura del proyecto, POM y mule-artifact; flujo vs. subflow; Mule message y depurador; Code Builder |
+| `videos/serie-2.md` (video 3) | dataweave | DataWeave desde cero: tipos, operadores, `==` vs `~=`, todos los selectores (JSON y XML), variables, `if`/`match`, funciones, `map`/`filter`/`update` |
+| `videos/serie-2.md` (video 4) | mule-events, dataweave | Set Payload, Set Variable, Remove Variable, Transform Message; MIME type por defecto; trampa de varias salidas |
+| `videos/serie-2.md` (video 5) | routing, processing-records | Choice, Round Robin, For Each (`counter`, `rootMessage`), Parallel For Each |
+| `videos/serie-2.md` (video 6) | designing-apis, connectors | APIs REST, URL, URI y query params, métodos, códigos; HTTP Request, configuración global, target variable |
+| `videos/serie-2.md` (video 7) | structuring-apps, propiedades-seguras | Properties en YAML y `.properties`; `${}` y `p()`; Configuration properties; `-Denv` |
+| `videos/serie-2.md` (video 8) | designing-apis, api-implementation, connectors | HTTP Listener y allowed methods; RAML con tipos; APIkit, scaffolding, validación 400 e implementación |
+| `videos/agent-fabric.md` | agent-fabric (temario aparte) | Chatbot NL→SQL: MCP Bridge sobre una System API, LLM proxy con enrutamiento por modelo y semántico, agente A2A en Mule y agent network con broker |

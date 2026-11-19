@@ -201,30 +201,98 @@
     }
   },
   "transcripciones_videos": {
-    "estado": "en-progreso",
-    "formato": "un solo documento por video en videos/serie-N/ (resumen por bloques, conceptos, para evaluar, para desarrollar, para estudiar, verificación); no se copia la transcripción",
-    "videos": [
-      {
-        "id": "s1-01",
-        "estado": "hecho",
-        "confirmado": "2026-11-17"
+    "estado": "completo-confirmado",
+    "formato": "un solo archivo por serie en videos/serie-N.md, con una sección por video (resumen por bloques, conceptos, para evaluar, para desarrollar, para estudiar, verificación); no se copia la transcripción (decisión 2026-11-18)",
+    "series": {
+      "serie-1": {
+        "archivo": "videos/serie-1.md",
+        "videos": [
+          {
+            "id": "s1-01",
+            "estado": "hecho",
+            "confirmado": "2026-11-17"
+          },
+          {
+            "id": "s1-02",
+            "estado": "hecho",
+            "confirmado": "2026-11-17"
+          },
+          {
+            "id": "s1-03",
+            "estado": "hecho",
+            "confirmado": "2026-11-17"
+          },
+          {
+            "id": "s1-04",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s1-05",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s1-06",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          }
+        ]
       },
-      {
-        "id": "s1-02",
-        "estado": "hecho",
-        "confirmado": "2026-11-17"
+      "serie-2": {
+        "archivo": "videos/serie-2.md",
+        "nota": "8 videos; el 8 (UXoUqsJHFeI) lo agregó la persona el 2026-11-18",
+        "videos": [
+          {
+            "id": "s2-01",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-02",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-03",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-04",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-05",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-06",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-07",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          },
+          {
+            "id": "s2-08",
+            "estado": "hecho",
+            "confirmado": "2026-11-18"
+          }
+        ]
       },
-      {
-        "id": "s1-03",
+      "agent-fabric-suelto": {
+        "archivo": "videos/agent-fabric.md",
+        "video": "DlC19DcSV_8",
         "estado": "hecho",
-        "confirmado": "2026-11-17"
-      },
-      {
-        "id": "s1-04",
-        "estado": "hecho",
-        "confirmado": null
+        "confirmado": "2026-11-18",
+        "temario": "aparte (agent-fabric)"
       }
-    ]
+    }
   },
   "whitepaper_seguridad": {
     "estado": "hecho",
